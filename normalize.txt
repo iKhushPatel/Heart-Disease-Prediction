@@ -1,0 +1,11 @@
+totCholNormal =[]
+for i in totChol:
+    if(i>240):
+        x=2;
+    elif(i>200 and i<240):
+        x=1;
+    elif(i<200):
+        x=0;
+    else:
+        x=-1;
+    totCholNormal.append(x)
